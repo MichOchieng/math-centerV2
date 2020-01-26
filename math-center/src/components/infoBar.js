@@ -6,9 +6,9 @@ class InfoBar extends Component {
     render() {
         return (
             <Container>
-                <div>
+                <div class="infoBar">
                     <h1 class="infoBarHeader">
-                        Online Users
+                        Users
                     </h1>
                     <ul class="userList">
                         <li>Coffee</li>
