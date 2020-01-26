@@ -12,16 +12,7 @@ class ChatArea extends Component {
                     <ListGroup.Item>Cuppa: yes</ListGroup.Item>
                 </ListGroup>
 
-                <InputGroup className="mb-3" id="send-container">
-                    <FormControl
-                    placeholder="Your message"
-                    aria-label="Your message"
-                    aria-describedby="basic-addon2"
-                    />
-                    <InputGroup.Append>
-                    <Button variant="outline-secondary">Send</Button>
-                    </InputGroup.Append>
-                </InputGroup>
+                
             </Container>
         );
     }
