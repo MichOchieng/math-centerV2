@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './App.css';
 
+import ChatArea from './components/ChatArea'
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -10,6 +11,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
+      <ChatArea />
       <Jumbotron>
         <h1 className="header">Welcome To React-Bootstrap</h1>
       </Jumbotron>
