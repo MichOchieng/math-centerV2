@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* InfoBar.js Styling */
+
+.userList{
+  list-style-type: none;  
+  text-align: center;
+}
+
