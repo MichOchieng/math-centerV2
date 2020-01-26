@@ -1,4 +1,8 @@
 
+#red {
+  background-color: red;
+}
+
 #user-list {
     text-align: center;
 }
@@ -25,14 +29,22 @@
 
 #send-container {
     position: fixed;
-    padding-bottom: 30px;
+    padding-bottom: 30px; 
     bottom: 0;
-    background-color: white;
+    /* background-color: white;
     max-width: 1200px;
     width: 80%;
-    display: flex;
+    display: flex; */
 }
 
 #message-input {
     flex-grow: 1;
 }
+
+/* InfoBar.js Styling */
+
+.userList{
+  list-style-type: none;  
+  text-align: center;
+}
+
