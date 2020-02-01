@@ -10,11 +10,8 @@ class InfoBar extends Component {
                     <h1 class="infoBarHeader">
                         Users
                     </h1>
-                    <ul class="userList">
-                        <li>Coffee</li>
-                        <li>Tea</li>
-                        <li>Milk</li>
-                    </ul>
+                    <p>Cuppa</p>
+                    <p>Mo</p>
                 </div>
             </Container>
         );
