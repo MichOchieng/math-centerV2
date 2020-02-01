@@ -13,26 +13,11 @@ import {Button, InputGroup, FormControl } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
-      <Row className="noPadding">
-        <Col> <ChatRoomNav /> </Col>
-        <Col> <ChatArea /> </Col>
+      <Row className="mainUi">
+        <Col className="ChatRoomNav"> <ChatRoomNav /> </Col>
+        <Col xs={6}> <ChatArea /> </Col>
         <Col> <InfoBar /> </Col>
-      </Row>
-
-      <Row className="noPadding">
-        <Col id="inputForm">
-          <InputGroup className="mb-3">
-            <InputGroup.Prepend>
-              <Button variant="outline-success">Send</Button>
-            </InputGroup.Prepend>
-            <FormControl 
-              aria-describedby="basic-addon1" 
-              placeholder="Join the conversation!" 
-            />
-          </InputGroup>
-        </Col>        
-      </Row>
-    
+      </Row>     
     </div>
   );
 }
