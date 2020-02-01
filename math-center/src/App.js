@@ -13,27 +13,26 @@ import {Button, InputGroup, FormControl } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
- 
-      <Row>
-        <Col>1 of 3</Col>
-        <Col><ChatArea /></Col>
-        <Col> <InfoBar /></Col>
+      <Row className="noPadding">
+        <Col> <ChatRoomNav /> </Col>
+        <Col> <ChatArea /> </Col>
+        <Col> <InfoBar /> </Col>
       </Row>
-      <Row>
-        <Col>
-        <InputGroup className="mb-3" id="send-container">
-                    <FormControl
-                    placeholder="Your message"
-                    aria-label="Your message"
-                    aria-describedby="basic-addon2"
-                    />
-                    <InputGroup.Append>
-                    <Button variant="outline-secondary">Send</Button>
-                    </InputGroup.Append>
+
+      <Row className="noPadding">
+        <Col id="inputForm">
+          <InputGroup className="mb-3">
+            <InputGroup.Prepend>
+              <Button variant="outline-success">Send</Button>
+            </InputGroup.Prepend>
+            <FormControl 
+              aria-describedby="basic-addon1" 
+              placeholder="Join the conversation!" 
+            />
           </InputGroup>
         </Col>        
       </Row>
-
+    
     </div>
   );
 }
