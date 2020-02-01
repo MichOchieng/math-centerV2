@@ -19,6 +19,9 @@ div.col-xs-1,div.col-xs-10,div.col-xs-11,div.col-xs-12,div.col-xs-2,div.col-xs-3
 
 /* Messages */
 
+.chatContainer{  
+  margin-top: 5%;
+}
 
 #message-container div {
     background-color: #ccc;
@@ -44,15 +47,39 @@ div.col-xs-1,div.col-xs-10,div.col-xs-11,div.col-xs-12,div.col-xs-2,div.col-xs-3
     flex-grow: 1;
 }
 
-/* chatArea Styling */
-#message-container{
-  height: 80vh;
-  border: black 1px dashed;
-}
-   
-#inputForm{  /* Send form */
-  border: red solid 2px;
+/* Main Ui styling */
 
+.mainUi{
+  height: 100vh;   
+}
+
+/* chatArea Styling */
+
+.sendButton{  
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 5%;
+}
+
+
+/* Chatroom Nav Styling */
+.ChatRoomNav{
+  
+}
+
+.chatNav{
+  border: 1px black;
+  border-radius: 25px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+  height: 99.5vh;
+}
+
+.chatNavHeader{
+  text-align: center;
+  font-size: 3vw;
 }
 
 /* InfoBar.js Styling */
@@ -63,19 +90,15 @@ div.col-xs-1,div.col-xs-10,div.col-xs-11,div.col-xs-12,div.col-xs-2,div.col-xs-3
   background: #FFFFFF;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   margin: 0 auto;
-  height: 80vh;
+  height: 99.5vh;
   
 }
-
 .infoBarHeader{
   text-align: center;
+  font-size: 3vw;
 }
 
-.userList{
-  list-style-type: none;  
-  text-align: center;
-}
-
+/* Tag should be changed to something more specific */
 p{
   text-align: center;
 }
